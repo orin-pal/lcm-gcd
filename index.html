@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lcm-Gcd</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-inner">
+        <h1>
+          LCM and GCD <br />
+          calculator
+        </h1>
+        <label for="input">Enter numbers (comma-separated):</label>
+        <br />
+        <input type="text" id="input" placeholder="e.g., 25, 5, 30, 40" inputmode="numeric" autocomplete="off"/>
+        <br />
+        <button id="calculate">Calculate</button>
+        <div id="results">
+          <p>LCM : <span id="lcm-result">-</span></p>
+          <p>GCD : <span id="gcd-result">-</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
